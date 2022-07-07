@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  overscroll-behavior: none;
+  user-select: none;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  height: 100vh;
+  background: linear-gradient(to top left, #0077cc30, #0000ff20, #ff000020);
+}
